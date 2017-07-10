@@ -27,7 +27,7 @@ FB:
   comments :
     provider : disqus
     disqus :
-        short_name : memo20xx
+        short_name : disqus_QtZqNoUfO5
     # facebook :
     #   appid : 123
     #   num_posts: 5
