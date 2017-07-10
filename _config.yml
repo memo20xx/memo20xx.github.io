@@ -1,0 +1,35 @@
+# Site settings
+name: memo20xx
+email: memo20xx@gmail.com
+author: Tim.Liu
+url: https://memo20xx.github.io
+resume_site: https://memo20xx.github.io
+github: https://github.com/memo20xx/
+baseurl: ""
+description: Open Source , Open Mind !
+meta_description: Electronic engineering in soft world.
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:categories/:year/:month/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: memo20xx
+highlighter: Pygments
+
+# Build settings
+markdown: kramdown
+
+#baidu_analysis: 45be4bcc9fc5d94cc0d0415ea37641e1
+
+FB:
+  comments :
+    provider : disqus
+    disqus :
+        short_name : memo20xx
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
